@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--<link rel="stylesheet" href="src/style.css">-->
+    <style>
+        body {
+            background-color: floralwhite;
+        }
+
+        h1 {
+            color: cornflowerblue;
+            text-align: center;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div {
+            text-align: center
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <h1 id="header">Generate get well soon</h1>
+
+
+    <table class="center">
+        <tr>
+            <td>
+                <img src="/images/gws.jpg" width="200" />
+            </td>
+            <td>
+                <img src="/images/gws2.jpg" width="200" />
+            </td>
+            <td>
+                <img src="/images/gws3.jpg" width="200" />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center">
+                <input type="radio" name="radioSelect" value="gws" checked="true">
+            </td>
+            <td style="text-align:center">
+                <input type="radio" name="radioSelect" value="gws2">
+            </td>
+            <td style="text-align:center">
+                <input type="radio" name="radioSelect" value="gws3">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="/images/gwsf.jpg" width="200" />
+            </td>
+            <td>
+                <img src="/images/gwsf2.jpg" width="200" />
+            </td>
+            <td>
+                <img src="/images/gwsf3.jpg" width="200" />
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center">
+                <input type="radio" name="radioSelect" value="gwsf">
+            </td>
+            <td style="text-align:center">
+                <input type="radio" name="radioSelect" value="gwsf2">
+            </td>
+            <td style="text-align:center">
+                <input type="radio" name="radioSelect" value="gwsf3">
+            </td>
+        </tr>
+
+    </table>
+
+    <div >
+    <h1>Personal Message:</h1>
+    <textarea id="pMessage" name="pMessage" rows="10" cols="50"> </textarea><br>
+    <button type="button" id="generateButton">Generate</button>
+    </div>
+
+
+
+    <script src="src/cookies.js"></script>
+    <script src="src/script.js"></script>
+</body></html>

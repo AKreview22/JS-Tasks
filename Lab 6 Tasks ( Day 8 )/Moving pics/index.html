@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #container {
+            border: solid red;
+            width: 500px;
+            height: 500px;
+            text-align: center;
+        }
+
+        #container>div {
+            position: absolute;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="icon1">
+            <img src="imgs/icon1.gif" />
+        </div>
+        <div id="icon2">
+            <img src="imgs/icon2.gif" />
+        </div>
+        <div id="top">
+            <img src="imgs/TOP.JPG" />
+        </div>
+
+    </div>
+    <br>
+    <div><button id="moveBtn" type="Button">Move</button>
+        <button type="Button" onclick="reset()">Reset</button>
+    </div>
+
+
+    <script src="/src/script.js"></script>
+</body></html>
