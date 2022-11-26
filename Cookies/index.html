@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div id="feedback-form">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname"><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age">
+
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="female">Female</label>
+
+        <br>
+
+        <label for="colors">Choose a color:</label>
+
+        <select name="colors" id="colors">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+
+        <button id=registerButton onclick="buttonStuff()">Register</button>
+
+    </div>
+
+    <script src="src/cookies.js"></script>
+    <script src="src/script.js"></script>
+</body></html>
