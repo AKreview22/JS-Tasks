@@ -1,7 +1,7 @@
 # JS-Tasks
 Javascript assignments for ITI
 
-#Cookies
+<h1>Cookies</h1>
 </br>
 https://user-images.githubusercontent.com/56924629/204082548-6f5be829-49e5-4dcd-978a-01d866527732.mov
 </br>
